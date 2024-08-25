@@ -1,0 +1,41 @@
+{
+  "id": "gnd-elevation-ruler-wod20-compatibility",
+  "title": "Elevation Ruler World of Darkness 20th Anniversary Compatibility",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "elevationruler",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/speed_provider.js"
+  ],
+  "description": "Adds Basic Elevation Ruler Compatibility for World of Darkness 20th Anniversary.\nBased on Rapunzel77 TDE 5 Drag Ruler Integration (Das Schwarze Auge) module.",
+  "authors": [
+    {
+      "name": "grandsome",
+      "discord": "grandsome",
+      "flags": {}
+    },
+    {
+      "name": "caewok",
+      "url": "https://github.com/caewok",
+      "discord": "caewok#9192",
+      "flags": {}
+    },
+    {
+      "name": "Rapunzel7",
+      "url": "https://github.com/Rapunzel77/dsa5-drag-ruler",
+      "discord": "Rapunzel_77#7051",
+      "flags": {}
+    }
+  ]
+}
